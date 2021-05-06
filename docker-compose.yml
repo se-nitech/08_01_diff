@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  myubuntu:
+    build: ./
+    volumes:
+      - ./:/mnt
+    tty: true
