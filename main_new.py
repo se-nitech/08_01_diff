@@ -15,7 +15,7 @@ def myfunc_4(a):
 def main():
     a = [1, 2, 3, 4, 5]
     for _ in range(100):
-        myfunc_2(a)
+        myfunc_4(a)
     for _ in range(300):
         myfunc_3(a)
 
